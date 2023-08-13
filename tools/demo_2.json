@@ -1,0 +1,198 @@
+{
+    "neuralNetwork": [
+        {
+            "index": 0,
+            "layer": 0,
+            "x": 415,
+            "y": 115,
+            "name": "School A"
+        },
+        {
+            "index": 1,
+            "layer": 0,
+            "x": 415,
+            "y": 175,
+            "name": "School B"
+        },
+        {
+            "index": 2,
+            "layer": 0,
+            "x": 415,
+            "y": 235,
+            "name": "School C"
+        },
+        {
+            "index": 3,
+            "layer": 1,
+            "x": 915,
+            "y": 115,
+            "name": "John Smith"
+        },
+        {
+            "index": 4,
+            "layer": 1,
+            "x": 915,
+            "y": 175,
+            "name": "Jane Doe"
+        },
+        {
+            "index": 5,
+            "layer": 1,
+            "x": 915,
+            "y": 235,
+            "name": "Michael Johnson"
+        },
+        {
+            "index": 6,
+            "layer": 1,
+            "x": 915,
+            "y": 295,
+            "name": "Emily Brown"
+        },
+        {
+            "index": 7,
+            "layer": 1,
+            "x": 915,
+            "y": 355,
+            "name": "William Davis"
+        },
+        {
+            "index": 8,
+            "layer": 1,
+            "x": 915,
+            "y": 415,
+            "name": "Olivia Wilson"
+        },
+        {
+            "index": 9,
+            "layer": 1,
+            "x": 915,
+            "y": 475,
+            "name": "James Jones"
+        },
+        {
+            "index": 10,
+            "layer": 1,
+            "x": 915,
+            "y": 535,
+            "name": "Sophia Martinez"
+        },
+        {
+            "index": 11,
+            "layer": 1,
+            "x": 915,
+            "y": 595,
+            "name": "Liam Anderson"
+        },
+        {
+            "index": 12,
+            "layer": 1,
+            "x": 915,
+            "y": 655,
+            "name": "Emma Johnson"
+        },
+        {
+            "index": 13,
+            "layer": 2,
+            "x": 1415,
+            "y": 115,
+            "name": "Class 101"
+        },
+        {
+            "index": 14,
+            "layer": 2,
+            "x": 1415,
+            "y": 175,
+            "name": "Class 102"
+        },
+        {
+            "index": 15,
+            "layer": 2,
+            "x": 1415,
+            "y": 235,
+            "name": "Class 103"
+        }
+    ],
+    "connections": [
+        {
+            "source": 0,
+            "target": 3
+        },
+        {
+            "source": 3,
+            "target": 13
+        },
+        {
+            "source": 1,
+            "target": 4
+        },
+        {
+            "source": 4,
+            "target": 14
+        },
+        {
+            "source": 2,
+            "target": 5
+        },
+        {
+            "source": 5,
+            "target": 15
+        },
+        {
+            "source": 0,
+            "target": 6
+        },
+        {
+            "source": 6,
+            "target": 13
+        },
+        {
+            "source": 1,
+            "target": 7
+        },
+        {
+            "source": 7,
+            "target": 14
+        },
+        {
+            "source": 2,
+            "target": 8
+        },
+        {
+            "source": 8,
+            "target": 15
+        },
+        {
+            "source": 0,
+            "target": 9
+        },
+        {
+            "source": 9,
+            "target": 13
+        },
+        {
+            "source": 1,
+            "target": 10
+        },
+        {
+            "source": 10,
+            "target": 14
+        },
+        {
+            "source": 2,
+            "target": 11
+        },
+        {
+            "source": 11,
+            "target": 15
+        },
+        {
+            "source": 0,
+            "target": 12
+        },
+        {
+            "source": 12,
+            "target": 13
+        }
+    ]
+}

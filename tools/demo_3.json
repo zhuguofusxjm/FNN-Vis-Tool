@@ -1,0 +1,212 @@
+{
+    "neuralNetwork": [
+        {
+            "index": 0,
+            "layer": 0,
+            "x": 415,
+            "y": 115,
+            "name": "Input_1"
+        },
+        {
+            "index": 1,
+            "layer": 0,
+            "x": 415,
+            "y": 175,
+            "name": "Input_2"
+        },
+        {
+            "index": 2,
+            "layer": 0,
+            "x": 415,
+            "y": 235,
+            "name": "Input_3"
+        },
+        {
+            "index": 3,
+            "layer": 0,
+            "x": 415,
+            "y": 295,
+            "name": "Input_4"
+        },
+        {
+            "index": 4,
+            "layer": 0,
+            "x": 415,
+            "y": 355,
+            "name": "Input_5"
+        },
+        {
+            "index": 5,
+            "layer": 0,
+            "x": 415,
+            "y": 415,
+            "name": "Input_6"
+        },
+        {
+            "index": 6,
+            "layer": 0,
+            "x": 415,
+            "y": 475,
+            "name": "Input_7"
+        },
+        {
+            "index": 7,
+            "layer": 0,
+            "x": 415,
+            "y": 535,
+            "name": "Input_8"
+        },
+        {
+            "index": 8,
+            "layer": 0,
+            "x": 415,
+            "y": 595,
+            "name": "Input_9"
+        },
+        {
+            "index": 9,
+            "layer": 0,
+            "x": 415,
+            "y": 655,
+            "name": "Input_10"
+        },
+        {
+            "index": 10,
+            "layer": 1,
+            "x": 915,
+            "y": 115,
+            "name": "Middle_1"
+        },
+        {
+            "index": 11,
+            "layer": 1,
+            "x": 915,
+            "y": 175,
+            "name": "Middle_2"
+        },
+        {
+            "index": 12,
+            "layer": 1,
+            "x": 915,
+            "y": 235,
+            "name": "Middle_3"
+        },
+        {
+            "index": 13,
+            "layer": 1,
+            "x": 915,
+            "y": 295,
+            "name": "Middle_4"
+        },
+        {
+            "index": 14,
+            "layer": 2,
+            "x": 1415,
+            "y": 115,
+            "name": "Onput_1"
+        },
+        {
+            "index": 15,
+            "layer": 2,
+            "x": 1415,
+            "y": 175,
+            "name": "Onput_2"
+        },
+        {
+            "index": 16,
+            "layer": 2,
+            "x": 1415,
+            "y": 235,
+            "name": "Onput_3"
+        },
+        {
+            "index": 17,
+            "layer": 2,
+            "x": 1415,
+            "y": 295,
+            "name": "Onput_4"
+        }
+    ],
+    "connections": [
+        {
+            "source": 0,
+            "target": 10
+        },
+        {
+            "source": 10,
+            "target": 14
+        },
+        {
+            "source": 1,
+            "target": 11
+        },
+        {
+            "source": 11,
+            "target": 15
+        },
+        {
+            "source": 2,
+            "target": 12
+        },
+        {
+            "source": 12,
+            "target": 16
+        },
+        {
+            "source": 3,
+            "target": 13
+        },
+        {
+            "source": 13,
+            "target": 14
+        },
+        {
+            "source": 4,
+            "target": 11
+        },
+        {
+            "source": 11,
+            "target": 16
+        },
+        {
+            "source": 5,
+            "target": 13
+        },
+        {
+            "source": 13,
+            "target": 17
+        },
+        {
+            "source": 6,
+            "target": 10
+        },
+        {
+            "source": 10,
+            "target": 14
+        },
+        {
+            "source": 7,
+            "target": 10
+        },
+        {
+            "source": 10,
+            "target": 16
+        },
+        {
+            "source": 8,
+            "target": 12
+        },
+        {
+            "source": 12,
+            "target": 15
+        },
+        {
+            "source": 9,
+            "target": 11
+        },
+        {
+            "source": 11,
+            "target": 17
+        }
+    ]
+}

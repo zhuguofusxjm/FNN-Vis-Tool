@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neural Network Visualization</title>
+    <style>
+        /* 侧边栏样式 */
+        .sidebar {
+            width: 250px;
+            height: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: #20232a;
+            padding-top: 20px;
+            color: white;
+            transition: width 0.3s;
+        }
+
+        .sidebar a {
+            padding: 15px;
+            text-decoration: none;
+            font-size: 18px;
+            color: white;
+            display: block;
+            transition: 0.3s;
+        }
+
+        .sidebar a:hover {
+            background-color: #343a40;
+        }
+
+        .sidebar.expanded {
+            width: 20px; /* 调整侧边栏展开时的宽度 */
+        }
+
+        /* 主内容区样式 */
+        .content {
+            padding: 20px;
+            transition: margin-left 0.3s;
+            margin-left: 250px; /* 默认的内容区域左边距 */
+        }
+
+        /* 调整内容区域在展开状态时的左边距 */
+        .content.expanded {
+            margin-left: 50px; /* 侧边栏展开时的左边距 */
+        }
+
+        /* 设置整个页面的样式，使其居中显示 */
+        body {
+            margin: 0;
+            padding: 0;
+            align-items: center;
+            background-color: white;
+            overflow: hidden; /* 隐藏溢出部分，避免滚动条出现 */
+        }
+    </style>
+    <script src="lib/d3.v7.js"></script>
+    <script src="lib/util.js"></script>
+</head>
+<body>
+    <div class="sidebar">
+
+        <a href="#" class="sidebar-option" data-content="demo_1">Demo-1</a>
+        <a href="#" class="sidebar-option" data-content="demo_2">Demo-2</a>
+        <a href="#" class="sidebar-option" data-content="demo_3">Demo-3</a>
+<!--        <a href="#" class="sidebar-option" data-content="Direction">换向</a>-->
+        <a href="#" id="toggleSidebar">Toggle</a>
+    </div>
+    <div class="content">
+        <!-- 在这里添加 SVG 图和其他内容 -->
+        <svg id="neural-network"></svg>
+    </div>
+
+<script>
+        const svg = d3.select("#neural-network");
+        const margin = { top: 20, right: 20, bottom: 20, left: 20 };
+        const nodeRadius = 15;
+        // 定义颜色映射
+        const colorMap = {
+            0: "red",
+            1: "blue",
+            2: "green",
+            3: "orange",
+        };
+
+<!--updateVisualization("output.json")-->
+
+        window.onload = function() {
+            const sidebarOptions = document.querySelectorAll(".sidebar-option");
+            const contentContainer = document.querySelector(".content");
+<!--            contentContainer.innerHTML = `<h1></h1><p>This is the content.</p>`;-->
+
+            sidebarOptions.forEach(option => {
+                option.addEventListener("click", function(event) {
+                    event.preventDefault();
+                    const content = this.getAttribute("data-content");
+                    if(content =="Direction") {
+                        changeDirection()
+                    }
+                    else if(content =="demo_1") {
+                        updateVisualization("tools/demo_1.json")
+                    }
+                    else if(content =="demo_2") {
+                        updateVisualization("tools/demo_2.json")
+                    }
+                    else if(content =="demo_3") {
+                         updateVisualization("tools/demo_3.json")
+                    }
+                    else {
+
+                    }
+                });
+            });
+
+        const sidebar = document.querySelector('.sidebar');
+        const toggleSidebarButton = document.getElementById('toggleSidebar');
+
+        toggleSidebarButton.addEventListener('click', () => {
+            sidebar.classList.toggle('expanded');
+            contentContainer.classList.toggle('expanded');
+        });
+
+        };
+
+    </script>
+</body>
+</html>
