@@ -9,10 +9,10 @@ Step 2: Generate display data and connection information by executing ConvertExc
 ![image](https://github.com/zhuguofusxjm/FNN-Vis-Tool/assets/142020046/5e65910d-cb8b-4c8e-a32d-93151d621be5)
 
 Step 3: Launch run.py to display the data on the web page at http://localhost:8080/index.html.
-![image](https://github.com/zhuguofusxjm/FNN-Vis-Tool/assets/142020046/aecff148-4908-4de0-baa8-f30a314272b9)
+![image](https://github.com/zhuguofusxjm/FNN-Vis-Tool/assets/142020046/d7a318a8-a982-4f80-9aca-9f91b870b26e)
 
 Additionally, it supports view switching and node inspection.
-![image](https://github.com/zhuguofusxjm/FNN-Vis-Tool/assets/142020046/5316a646-e7c0-4dc5-8c24-4cc628001dc4)
+![image](https://github.com/zhuguofusxjm/FNN-Vis-Tool/assets/142020046/ce6bdbfe-c6b9-40e0-9c19-78eb4d5e4081)
 
 I hope this tool can save time for machine learning researchers and also serve as an educational tool in certain scenarios.
 
