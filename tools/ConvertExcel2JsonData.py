@@ -1,8 +1,8 @@
 import pandas as pd
 import json
 
-excel_file = "demo_3.xlsx"
-output_file = "demo_3.json"
+excel_file = "demo_2.xlsx"
+output_file = "demo_2.json"
 
 df = pd.read_excel(excel_file)
 
@@ -58,6 +58,33 @@ for _row_index, _row_data in df.iterrows():
         }
         print(connection)
         connections_data.append(connection)
+
+grouped_data = {}
+# 获取全局最大值
+global_max_x = 0
+global_max_y = 0
+for item in neural_network_data:
+    layer = item["layer"]
+    x = item["x"]
+    y = item["y"]
+
+    if layer in grouped_data:
+        grouped_data[layer]["x"] = max(grouped_data[layer]["x"], x)
+        grouped_data[layer]["y"] = max(grouped_data[layer]["y"], y)
+    else:
+        grouped_data[layer] = {"x": x, "y": y}
+    global_max_x = max(global_max_x, x)
+    global_max_y = max(global_max_y, y)
+
+
+# 将Y列的差值除2，就可以算出居中排布的偏移量，直接写道原字典中
+for key in grouped_data:
+    y = grouped_data[key]["y"]
+    grouped_data[key]["y"] = (global_max_y - y) / 2
+
+for item in neural_network_data:
+    layer = item["layer"]
+    item["y"] = item["y"] + grouped_data[layer]["y"]
 
 # 生成最终的 JSON 数据
 final_json = {

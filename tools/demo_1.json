@@ -4,210 +4,210 @@
             "index": 0,
             "layer": 0,
             "x": 415,
-            "y": 115,
+            "y": 115.0,
             "name": "Penguin Books"
         },
         {
             "index": 1,
             "layer": 0,
             "x": 415,
-            "y": 175,
+            "y": 175.0,
             "name": "HarperCollins"
         },
         {
             "index": 2,
             "layer": 0,
             "x": 415,
-            "y": 235,
+            "y": 235.0,
             "name": "Simon & Schuster"
         },
         {
             "index": 3,
             "layer": 0,
             "x": 415,
-            "y": 295,
+            "y": 295.0,
             "name": "Random House"
         },
         {
             "index": 4,
             "layer": 0,
             "x": 415,
-            "y": 355,
+            "y": 355.0,
             "name": "Hachette Book Group"
         },
         {
             "index": 5,
             "layer": 0,
             "x": 415,
-            "y": 415,
+            "y": 415.0,
             "name": "Macmillan Publishers"
         },
         {
             "index": 6,
             "layer": 0,
             "x": 415,
-            "y": 475,
+            "y": 475.0,
             "name": "Scholastic Corporation"
         },
         {
             "index": 7,
             "layer": 0,
             "x": 415,
-            "y": 535,
+            "y": 535.0,
             "name": "Bloomsbury Publishing"
         },
         {
             "index": 8,
             "layer": 0,
             "x": 415,
-            "y": 595,
+            "y": 595.0,
             "name": "Little, Brown and Company"
         },
         {
             "index": 9,
             "layer": 0,
             "x": 415,
-            "y": 655,
+            "y": 655.0,
             "name": "Penguin Random House"
         },
         {
             "index": 10,
             "layer": 1,
             "x": 915,
-            "y": 115,
+            "y": 115.0,
             "name": "1984"
         },
         {
             "index": 11,
             "layer": 1,
             "x": 915,
-            "y": 175,
+            "y": 175.0,
             "name": "Becoming"
         },
         {
             "index": 12,
             "layer": 1,
             "x": 915,
-            "y": 235,
+            "y": 235.0,
             "name": "The Catcher in the Rye"
         },
         {
             "index": 13,
             "layer": 1,
             "x": 915,
-            "y": 295,
+            "y": 295.0,
             "name": "The Power of Now"
         },
         {
             "index": 14,
             "layer": 1,
             "x": 915,
-            "y": 355,
+            "y": 355.0,
             "name": "Educated"
         },
         {
             "index": 15,
             "layer": 1,
             "x": 915,
-            "y": 415,
+            "y": 415.0,
             "name": "The Hunger Games"
         },
         {
             "index": 16,
             "layer": 1,
             "x": 915,
-            "y": 475,
+            "y": 475.0,
             "name": "Harry Potter and the Philosopher's Stone"
         },
         {
             "index": 17,
             "layer": 1,
             "x": 915,
-            "y": 535,
+            "y": 535.0,
             "name": "A Brief History of Time"
         },
         {
             "index": 18,
             "layer": 1,
             "x": 915,
-            "y": 595,
+            "y": 595.0,
             "name": "The Girl with the Dragon Tattoo"
         },
         {
             "index": 19,
             "layer": 1,
             "x": 915,
-            "y": 655,
+            "y": 655.0,
             "name": "To Kill a Mockingbird"
         },
         {
             "index": 20,
             "layer": 2,
             "x": 1415,
-            "y": 115,
+            "y": 205.0,
             "name": "Fiction"
         },
         {
             "index": 21,
             "layer": 2,
             "x": 1415,
-            "y": 175,
+            "y": 265.0,
             "name": "Biography"
         },
         {
             "index": 22,
             "layer": 2,
             "x": 1415,
-            "y": 235,
+            "y": 325.0,
             "name": "Self-Help"
         },
         {
             "index": 23,
             "layer": 2,
             "x": 1415,
-            "y": 295,
+            "y": 385.0,
             "name": "Memoir"
         },
         {
             "index": 24,
             "layer": 2,
             "x": 1415,
-            "y": 355,
+            "y": 445.0,
             "name": "Science"
         },
         {
             "index": 25,
             "layer": 2,
             "x": 1415,
-            "y": 415,
+            "y": 505.0,
             "name": "Mystery"
         },
         {
             "index": 26,
             "layer": 2,
             "x": 1415,
-            "y": 475,
+            "y": 565.0,
             "name": "Classic Fiction"
         },
         {
             "index": 27,
             "layer": 3,
             "x": 1915,
-            "y": 115,
+            "y": 325.0,
             "name": 10
         },
         {
             "index": 28,
             "layer": 3,
             "x": 1915,
-            "y": 175,
+            "y": 385.0,
             "name": 15
         },
         {
             "index": 29,
             "layer": 3,
             "x": 1915,
-            "y": 235,
+            "y": 445.0,
             "name": 20
         }
     ],
